@@ -1,0 +1,15 @@
+var i,j;
+begin
+  i := -1;
+  j :=10;
+  for(var i:(1,3))
+  begin
+    for(var j:(1,10,2))
+    begin
+        print(i);
+        print();
+        print(j);
+        print();
+    end
+  end
+end.

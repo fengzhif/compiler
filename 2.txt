@@ -1,0 +1,7 @@
+var i,j,k;
+begin
+i := j := k := 2;
+if ((i:=3)<4) then
+j := 4;
+print(i,j,k);
+end.

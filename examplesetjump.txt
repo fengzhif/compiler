@@ -1,0 +1,13 @@
+var i,j;
+procedure p;
+begin
+    i := setjmp(j);
+end;
+begin
+    j := 2;
+    call p;
+    print(i);
+    print();
+    if (i = 2) then
+        longjmp(2,3);
+end.
